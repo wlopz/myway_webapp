@@ -12,6 +12,8 @@
 //
 //= require jquery/jquery-2.2.3.min.js
 //= require bootstrap-sprockets
+//= require fullpage/jquery.fullpage.min.js
+//= require fullpage/scrolloverflow.min.js
 //= require viewport/jquery.viewport.js
 //= require menu/hoverIntent.js
 //= require menu/superfish.js

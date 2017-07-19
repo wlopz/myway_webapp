@@ -15,6 +15,7 @@
 @import "revolutionslider/css/navigation.css";
 @import "owl-carousel/owl.carousel.css";
 @import "ytplayer/css/jquery.mb.ytplayer.min.css";
+@import "fullpage/jquery.fullpage.min.css";
 
 /***********************************************************************************
  *	+ TYPOGRAPHY
@@ -648,7 +649,7 @@ dl {
 
 /* DEFAULT BUTTON 1 */
 .btn-default-1 {
-  background-color: #7a00ff;
+  background-color: #1996b8;
   color: #fff;
 }
 
@@ -5100,7 +5101,7 @@ blockquote footer img {
 #section-73 {
   padding: 0;
   margin-bottom: 0;
-  background-image: url(backgrounds/bg-32.jpg);
+  background-image: url(iphone-myway-1.jpg);
 }
 
 #section-73 h1 {
@@ -5535,7 +5536,7 @@ blockquote footer img {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background-color: #e083af;
+  background-color: #1996b8;
   color: #fff;
   font-size: 24px;
   line-height: 42px;
@@ -5547,12 +5548,13 @@ blockquote footer img {
 }
 
 #scroll-up:hover {
-  background-color: #7a00ff;
+  background-color: #ffffff;
+  color: #1996b8;
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.16), 0 3px 12px 0 rgba(0, 0, 0, 0.12);
 }
 
 #scroll-up.waves .waves-ripple {
-  background-color: #9a40fc;
+  background-color: #1996b8;
 }
 
 @media (max-width: 767px) {
@@ -6015,7 +6017,7 @@ blockquote footer img {
   width: 10px;
   height: 10px;
   margin: 0;
-  background-color: #7a00ff;
+  background-color: #1996b8;
 }
 
 /***********************************************************************************
