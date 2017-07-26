@@ -292,7 +292,7 @@
 
 .menu ul li > a:hover,
 .menu ul li.sfHover > a {
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
 }
 
@@ -322,7 +322,7 @@
 }
 
 .menu-style-3 .menu-button:hover {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .header-hidden .menu-button {
@@ -377,7 +377,7 @@
 }
 
 .menu-slide-container .close-menu:hover {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .menu-slide,
@@ -448,7 +448,7 @@
 
 .menu-slide li a:hover,
 .menu-slide li.active > a {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .header-style-2 .menu {
@@ -513,7 +513,7 @@
     width: 42px;
     height: 42px;
     border-radius: 5px;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
     font-size: 24px;
     line-height: 46px;
@@ -528,7 +528,7 @@
     list-style: none;
     display: none;
     margin: 0;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
 }
 
@@ -846,7 +846,7 @@
 #login-form-container h4 {
     padding: 20px 0;
     margin: 0 -20px 40px;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
 }
 
@@ -1094,7 +1094,7 @@
 #footer.default-color {
     padding-top: 30px;
     padding-bottom: 0;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
 }
 
@@ -1149,7 +1149,7 @@
 }
 
 #footer .widget-pages ul li a:hover:after {
-    border-bottom-color: #7a00ff;
+    border-bottom-color: #3694a3;
 }
 
 #footer.default-color .widget-social .social-media a {
@@ -1246,7 +1246,7 @@
 }
 
 #footer-top a:hover {
-    color: #7a00ff;;
+    color: #3694a3;;
 }
 
 #footer-top h1,
@@ -1269,7 +1269,7 @@
 }
 
 #footer-top .widget-latest-posts .post-date {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 #footer-top .widget-latest-posts .post-date:hover {
@@ -1284,7 +1284,7 @@
     width: auto;
     height: auto;
     background-color: transparent;
-    color: #7a00ff;
+    color: #3694a3;
     font-size: 18px;
 }
 
@@ -1315,7 +1315,7 @@
 }
 
 #footer-top + #footer-middle {
-    background-color: #7a00ff;
+    background-color: #3694a3;
 }
 
 #footer-middle a,
@@ -1363,7 +1363,7 @@
 }
 
 #footer-middle + #footer-bottom {
-    background-color: #7a00ff;
+    background-color: #3694a3;
 }
 
 #footer-top + #footer-middle + #footer-bottom {
@@ -1418,7 +1418,7 @@
     width: auto;
     height: auto;
     background-color: transparent;
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 #footer-bottom .widget-social .social-media {
@@ -1471,7 +1471,7 @@
  ***********************************************************************************/
 
 .about-me {
-    border-top: 3px solid #7a00ff;
+    border-top: 3px solid #3694a3;
     margin-bottom: 50px;
 }
 
@@ -1496,7 +1496,7 @@
     height: 54px;
     font-size: 26px;
     line-height: 54px;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -1548,15 +1548,15 @@
 }
 
 .about-me:hover .about-me-details h4 {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .about-me:hover .about-me-details > a {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .about-me:hover .about-me-details > a:after {
-    border-bottom-color: #7a00ff;
+    border-bottom-color: #3694a3;
 }
 
 .about-me:hover .about-me-details > a:hover {
@@ -1624,7 +1624,7 @@
 }
 
 .about-me.style-2:hover {
-    border-top-color: #7a00ff;
+    border-top-color: #3694a3;
 }
 
 .about-me.style-2:hover .about-me-thumbnail:after {
@@ -1672,11 +1672,11 @@
 }
 
 .service-box-content > a:hover {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .service-box-content > a:hover:after {
-    border-color: #7a00ff;
+    border-color: #3694a3;
 }
 
 
@@ -1685,7 +1685,7 @@
     position: relative;
     overflow: hidden;
     border: 1px solid #e1e1e1;
-    border-top: 3px solid #7a00ff;
+    border-top: 3px solid #3694a3;
     margin-bottom: 30px;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
@@ -1699,7 +1699,7 @@
     z-index: -1;
     top: -100%;
     left: -100%;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     content: "";
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
@@ -1750,8 +1750,8 @@
 }
 
 .service-box.style-1:hover {
-    border-color: #7a00ff;
-    background-color: #7a00ff;
+    border-color: #3694a3;
+    background-color: #3694a3;
     color: #fff;
 }
 
@@ -1795,7 +1795,7 @@
     height: 48px;
     border-radius: 50%;
     margin: 0 auto 20px;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
     font-size: 26px;
     line-height: 48px;
@@ -1883,7 +1883,7 @@
 .service-box.style-3 .service-box-content {}
 
 .service-box.style-3:hover > i {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 
@@ -1939,7 +1939,7 @@
 }
 
 .service-box.style-4:hover {
-    background-color: #7a00ff;
+    background-color: #3694a3;
 }
 
 
@@ -1981,8 +1981,8 @@
 }
 
 .service-box.style-5 a:hover {
-    border-color: #7a00ff;
-    background-color: #7a00ff;
+    border-color: #3694a3;
+    background-color: #3694a3;
     color: #fff;
 }
 
@@ -2002,9 +2002,9 @@
     display: block;
     width: 68px;
     height: 68px;
-    border: 2px dotted #7a00ff;
+    border: 2px dotted #3694a3;
     border-radius: 50%;
-    color: #7a00ff;
+    color: #3694a3;
     font-size: 36px;
     line-height: 68px;
     text-align: center;
@@ -2096,7 +2096,7 @@
 }
 
 .service-box.style-7:hover > i {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 
@@ -2121,7 +2121,7 @@
     height: 100px;
     border-radius: 50%;
     background-color: #fff;
-    color: #7a00ff;
+    color: #3694a3;
     font-size: 48px;
     line-height: 100px;
     text-align: center;
@@ -2165,7 +2165,7 @@
 }
 
 .service-box.style-8.small-icon:hover > i {
-    background-color: #7a00ff;
+    background-color: #3694a3;
     color: #fff;
 }
 
@@ -2210,7 +2210,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     content: "";
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
@@ -2248,7 +2248,7 @@
 }
 
 .service-box.style-10:hover > i {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 
@@ -2268,17 +2268,17 @@
 }
 
 .service-box.style-11:hover > i {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .service-box.style-11 .service-box-content h6 {
-    color: #7a00ff;
+    color: #3694a3;
     font: 14px/27px "Montserrat", sans-serif;
     text-transform: uppercase;
 }
 
 .service-box.style-11 .service-box-content h6 a {
-    color: #7a00ff;
+    color: #3694a3;
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
 }
@@ -2429,7 +2429,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #7a00ff;
+    background-color: #3694a3;
     content: "";
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
@@ -2566,11 +2566,11 @@
 }
 
 .portfolio-item.portfolio-classic .portfolio-item-description > a:hover {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .portfolio-item.portfolio-classic .portfolio-item-description > a:hover:after {
-    border-color: #7a00ff;
+    border-color: #3694a3;
 }
 
 .portfolio-item.portfolio-classic:after {
@@ -2629,11 +2629,11 @@
 }
 
 .portfolio-navigation a:hover {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .portfolio-navigation a:hover i {
-    background-color: #7a00ff;
+    background-color: #3694a3;
 }
 
 @media (max-width: 767px) {
@@ -2722,7 +2722,7 @@
 }
 
 .blog-article-subtitle a:hover {
-    color: #7a00ff;
+    color: #3694a3;
     text-decoration: none;
 }
 
@@ -2765,7 +2765,7 @@
 }
 
 .blog-article-details a:hover {
-    color: #7a00ff;
+    color: #3694a3;
     text-decoration: none;
 }
 
@@ -2793,11 +2793,11 @@
 }
 
 .blog-article-content > a:hover {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .blog-article-content > a:hover:after {
-    border-color: #7a00ff;
+    border-color: #3694a3;
 }
 
 .blog-article:hover .blog-article-thumbnail a > img {
@@ -2895,7 +2895,7 @@
 }
 
 .comment-author .fn:hover {
-    color: #7a00ff;
+    color: #3694a3;
 }
 
 .comment-author .says {
@@ -2914,7 +2914,7 @@
 }
 
 .comment-metadata a:hover {
-    color: #7a00ff;
+    color: #3694a3;
     text-decoration: none;
 }
 
@@ -2932,7 +2932,7 @@
 
 .reply a:after {
     display: block;
-    border-bottom: 1px solid #7a00ff;
+    border-bottom: 1px solid #3694a3;
     content: "";
 }
 
@@ -3176,7 +3176,7 @@
 
 .contact-box h6 {
     margin-bottom: 15px;
-    color: #7a00ff;
+    color: #3694a3;
     font: 14px/27px "Montserrat", sans-serif;
     text-transform: uppercase;
 }
@@ -3186,7 +3186,7 @@
 }
 
 .contact-box:hover {
-    border-color: #7a00ff;
+    border-color: #3694a3;
 }
 
 /***********************************************************************************
