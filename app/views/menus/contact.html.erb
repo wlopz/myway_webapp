@@ -1,1 +1,107 @@
-<h1>CONTACT</h1>
+<body class="sticky-header header-white">
+  <div id="main-container">
+    <!-- PAGE CONTENT -->
+    <div id="page-content">
+
+      <div id="page-header" class="parallax" data-stellar-background-ratio="0.1" style="background-image: url(<%= asset_path 'backgrounds/page-header-8.jpg' %>)">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+
+              <h1>Contact</h1>
+
+            </div><!-- col -->
+          </div><!-- row -->
+        </div><!-- container -->
+
+      </div><!-- page-header -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+
+            <h5 class="text-uppercase"><strong>Get in touch</strong></h5>
+
+            <form id="contact-form" name="contact-form" method="post" action="assets/php/send.php">
+              <fieldset>
+
+                <div id="alert-area"></div>
+
+                <div class="row">
+                  <div class="col-sm-6">
+
+                    <p>
+                      <input class="col-xs-12" id="name" type="text" name="name" placeholder="" required>
+                      <label for="name">Name</label>
+                    </p>
+
+                  </div><!-- col -->
+                  <div class="col-sm-6">
+
+                    <p>
+                      <input class="col-xs-12" id="email" type="text" name="email" placeholder="" required>
+                      <label for="email">E-mail</label>
+                    </p>
+
+                  </div><!-- col -->
+                </div><!-- row -->
+
+                <p>
+                  <input class="col-xs-12" id="subject" type="text" name="subject" placeholder="" required>
+                  <label for="subject">Subject</label>
+                </p>
+
+                <p>
+                  <textarea class="col-xs-12" id="message" name="message" rows="4" cols="25" placeholder="" required></textarea>
+                  <label for="message">Message</label>
+                </p>
+
+                <button class="btn btn-default-1 waves" id="submit" type="submit" name="submit" value="">Send message</button>
+
+              </fieldset>
+            </form>
+
+          </div><!-- col -->
+          <div class="col-sm-6">
+
+            <h5 class="text-uppercase"><strong>Contact info</strong></h5>
+
+            <br>
+
+            <p>Aenean luctus mi mollis quam feugiat consequat eu sed eros. Cras suscipit eu est sed imperdiet.
+              Curabitur ultrices dolor magna, at ven enatis lacus rutrum nec. Quisque elit velit, lacinia sit amet
+              tellus at, auctor suscipit metus. Duis congue nibh at tortor ornare, sed commo do ipsum mattis.</p>
+
+            <br>
+
+            <div class="widget widget-contact no-margin-bottom">
+
+              <ul>
+                <li>
+                  <i class="fa fa-map-marker"></i>
+                  Los Angeles <br class="visible-lg-block"> California
+                </li>
+                <li>
+                  <i class="fa fa-phone"></i>
+                  XXX-XXX-XXXX
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i>
+                  <a href="mailto:contact@myway.com">contact@myway.com</a>
+                </li>
+              </ul>
+
+            </div><!-- widget-contact -->
+
+            <br><br>
+
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- container -->
+
+      <br class="hidden-lg hidden-md"><br class="hidden-lg hidden-md">
+
+    </div><!-- PAGE CONTENT -->
+  </div>
+</body>

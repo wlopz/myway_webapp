@@ -21,13 +21,13 @@
           <a id="mobile-menu-button" class="waves" href="#"><i class="custom-icon-menu"></i></a>
 
           <ul class="menu clearfix" id="menu">
-            <li class="megamenu <%= is_active?(root_path) %>">
+            <li class="<%= is_active?(root_path) %>">
               <%= link_to "Home", root_path, :"data-no-turbolink" => true, method: "get" %>
             </li>
-            <li class="megamenu <%= is_active?(about_path) %>">
+            <li class="<%= is_active?(about_path) %>">
               <%= link_to "About Us", about_path, :"data-no-turbolink" => true, method: "get" %>
             </li>
-            <li class="megamenu <%= is_active?(contact_path) %>">
+            <li class="<%= is_active?(contact_path) %>">
               <%= link_to "Contact", contact_path, :"data-no-turbolink" => true, method: "get" %>
             </li>
           </ul>
