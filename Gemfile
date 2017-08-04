@@ -15,6 +15,8 @@ gem 'pg'
 gem 'wow-rails'
 # Bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
+# Unicorn
+gem 'unicorn'
 
 group :production do
   gem 'rails_12factor'
