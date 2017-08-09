@@ -17,6 +17,8 @@ gem 'wow-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 # Unicorn
 gem 'unicorn'
+# Rake
+# gem 'rake', '~> 12.0.0'
 
 group :production do
   gem 'rails_12factor'
