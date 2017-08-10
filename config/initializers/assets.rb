@@ -11,4 +11,9 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
-# Rails.application.config.assets.precompile += %w( admin.js admin.css )
+Rails.application.config.assets.precompile += %w( fontawesome/css/font-awesome.min.css )
+Rails.application.config.assets.precompile += %w( fullpage/jquery.fullpage.min.css )
+
+%w(eot svg ttf woff woff2).each do |ext|
+  Rails.application.config.assets.precompile << "fontawesome/fonts/fontawesome-webfont.#{ext}"
+end
