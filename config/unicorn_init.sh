@@ -8,7 +8,7 @@ set -e
 TIMEOUT=${TIMEOUT-60}
 APP_ROOT=/app
 PID=$APP_ROOT/tmp/pids/unicorn.pid
-CMD="/home/vagrant/.rvm/bin/ruby-2.3.1_unicorn_rails -D -c $APP_ROOT/config/unicorn.rb -E production"
+CMD="/bin/unicorn -D -c $APP_ROOT/config/unicorn.rb -E production"
 action="$1"
 set -u
 
