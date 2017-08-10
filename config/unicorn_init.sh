@@ -6,7 +6,7 @@ set -e
 # Feel free to change any of the following variables for your app:
 # Remember -E production flag for production & sudo -c "$CMD" - user so it's not run as root!
 TIMEOUT=${TIMEOUT-60}
-APP_ROOT=/vagrant
+APP_ROOT=/app
 PID=$APP_ROOT/tmp/pids/unicorn.pid
 CMD="/home/vagrant/.rvm/bin/ruby-2.3.1_unicorn_rails -D -c $APP_ROOT/config/unicorn.rb -E production"
 action="$1"
