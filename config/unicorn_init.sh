@@ -1,76 +1,70 @@
 #!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          unicorn
+# Required-Start:    $all
+# Required-Stop:     $all
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: starts the unicorn app server
+# Description:       starts unicorn using start-stop-daemon
+### END INIT INFO
+
 set -e
-# Example init script, this can be used with nginx, too,
-# since nginx and unicorn accept the same signals
 
-# Feel free to change any of the following variables for your app:
-# Remember -E production flag for production & sudo -c "$CMD" - user so it's not run as root!
-TIMEOUT=${TIMEOUT-60}
-APP_ROOT=/app
-PID=$APP_ROOT/tmp/pids/unicorn.pid
-CMD="/bin/unicorn -D -c $APP_ROOT/config/unicorn.rb -E production"
-action="$1"
-set -u
+USAGE="Usage: $0 <start|stop|restart|upgrade|rotate|force-stop>"
 
-old_pid="$PID.oldbin"
+# app settings
+APP_NAME="app"
+APP_ROOT="$APP_NAME/"
+ENV="production"
 
+# environment settings
+CMD="cd $APP_ROOT && bundle exec unicorn -c config/unicorn.rb -E $ENV -D"
+PID="$APP_ROOT/shared/pids/unicorn.pid"
+OLD_PID="$PID.oldbin"
+
+# make sure the app exists
 cd $APP_ROOT || exit 1
 
 sig () {
-        test -s "$PID" && kill -$1 `cat $PID`
+  test -s "$PID" && kill -$1 `cat $PID`
 }
 
 oldsig () {
-        test -s $old_pid && kill -$1 `cat $old_pid`
+  test -s $OLD_PID && kill -$1 `cat $OLD_PID`
 }
 
-case $action in
-start)
-        sig 0 && echo >&2 "Already running" && exit 0
-        su -c "$CMD" - vagrant
-        ;;
-stop)
-        sig QUIT && exit 0
-        echo >&2 "Not running"
-        ;;
-force-stop)
-        sig TERM && exit 0
-        echo >&2 "Not running"
-        ;;
-restart|reload)
-        sig HUP && echo reloaded OK && exit 0
-        echo >&2 "Couldn't reload, starting '$CMD' instead"
-        su -c "$CMD" - vagrant
-        ;;
-upgrade)
-        if sig USR2 && sleep 2 && sig 0 && oldsig QUIT
-        then
-                n=$TIMEOUT
-                while test -s $old_pid && test $n -ge 0
-                do
-                        printf '.' && sleep 1 && n=$(( $n - 1 ))
-                done
-                echo
-
-                if test $n -lt 0 && test -s $old_pid
-                then
-                        echo >&2 "$old_pid still exists after $TIMEOUT seconds"
-                        exit 1
-                fi
-                exit 0
-        fi
-        echo >&2 "Couldn't upgrade, starting '$CMD' instead"
-        su -c "$CMD" - vagrant
-        ;;
-reopen-logs)
-        sig USR1
-        ;;
-*)
-        echo >&2 "Usage: $0 <start|stop|restart|upgrade|force-stop|reopen-logs>"
-        exit 1
-        ;;
+case $1 in
+  start)
+    sig 0 && echo >&2 "Already running" && exit 0
+    echo "Starting $APP_NAME"
+    su - $USER -c "$CMD"
+    ;;
+  stop)
+    echo "Stopping $APP_NAME"
+    sig QUIT && exit 0
+    echo >&2 "Not running"
+    ;;
+  force-stop)
+    echo "Force stopping $APP_NAME"
+    sig TERM && exit 0
+    echo >&2 "Not running"
+    ;;
+  restart|reload|upgrade)
+    sig USR2 && echo "reloaded $APP_NAME" && exit 0
+    echo >&2 "Couldn't reload, starting '$CMD' instead"
+    $CMD
+    ;;
+  rotate)
+    sig USR1 && echo rotated logs OK && exit 0
+    echo >&2 "Couldn't rotate logs" && exit 1
+    ;;
+  *)
+    echo >&2 $USAGE
+    exit 1
+    ;;
 esac
-
 
 
 
