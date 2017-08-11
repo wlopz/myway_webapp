@@ -20,7 +20,7 @@ APP_ROOT="$APP_NAME/"
 ENV="production"
 
 # environment settings
-CMD="cd $APP_ROOT && bundle exec unicorn -c config/unicorn.rb -E $ENV -D"
+CMD="bundle exec unicorn -c config/unicorn.rb -E $ENV -D"
 PID="$APP_ROOT/shared/pids/unicorn.pid"
 OLD_PID="$PID.oldbin"
 
