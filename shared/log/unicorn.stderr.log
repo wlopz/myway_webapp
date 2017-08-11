@@ -1,0 +1,219 @@
+I, [2017-08-11T02:14:42.871145 #2520]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:14:57.963593 #2520] FATAL -- : error adding listener addr=/vagrant/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/shared/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:16:16.968645 #2540]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:16:24.701977 #2540] FATAL -- : error adding listener addr=/vagrant/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/shared/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:17:59.671638 #2586]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:18:07.202817 #2586] FATAL -- : error adding listener addr=/vagrant/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/shared/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:21:15.135612 #2607]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:21:21.983612 #2607] FATAL -- : error adding listener addr=/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': No such file or directory - connect(2) for /shared/sockets/unicorn.mywayNginx.sock (Errno::ENOENT)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:21:53.087518 #2620]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:21:59.659432 #2620] FATAL -- : error adding listener addr=/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': No such file or directory - connect(2) for /shared/sockets/unicorn.mywayNginx.sock (Errno::ENOENT)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:26:22.724092 #2647]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:26:29.306365 #2647] FATAL -- : error adding listener addr=/vagrant/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/shared/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:26:36.774866 #2663]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:26:42.942719 #2663] FATAL -- : error adding listener addr=/vagrant/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/shared/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:42:15.200733 #2167]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:42:31.624565 #2167] FATAL -- : error adding listener addr=/vagrant/shared/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/shared/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:49:39.624962 #2251]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:49:46.015771 #2251] FATAL -- : error adding listener addr=/tmp/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': No such file or directory - connect(2) for /tmp/sockets/unicorn.mywayNginx.sock (Errno::ENOENT)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:51:28.528783 #2268]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:51:35.226542 #2268] FATAL -- : error adding listener addr=/vagrant/tmp/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/tmp/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:51:59.835359 #2283]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:52:06.992416 #2283] FATAL -- : error adding listener addr=/vagrant/tmp/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/tmp/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:53:58.428566 #2355]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:54:04.552806 #2355] FATAL -- : error adding listener addr=/vagrant/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:56:39.101142 #2375]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:56:45.583154 #2375] FATAL -- : error adding listener addr=/vagrant/sockets/unicorn.mywayUnicorn.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/sockets/unicorn.mywayUnicorn.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T02:59:22.047825 #2395]  INFO -- : Refreshing Gem list
+F, [2017-08-11T02:59:28.613980 #2395] FATAL -- : error adding listener addr=/vagrant/sockets/unicorn.mywayNginx.sock
+/home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `initialize': Operation not permitted - connect(2) for /vagrant/sockets/unicorn.mywayNginx.sock (Errno::EPERM)
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `new'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/socket_helper.rb:137:in `bind_listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:241:in `listen'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `block in bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `each'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:852:in `bind_new_listeners!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/lib/unicorn/http_server.rb:140:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/gems/unicorn-5.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/unicorn_rails:23:in `<main>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `eval'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1@myway_site/bin/ruby_executable_hooks:15:in `<main>'
+I, [2017-08-11T03:05:13.299538 #2555]  INFO -- : Refreshing Gem list
+I, [2017-08-11T03:05:19.793453 #2555]  INFO -- : listening on addr=/tmp/unicorn.mywayApp.sock fd=7
+I, [2017-08-11T03:05:19.794065 #2555]  INFO -- : worker=0 spawning...
+I, [2017-08-11T03:05:19.822625 #2555]  INFO -- : worker=1 spawning...
+I, [2017-08-11T03:05:19.826037 #2558]  INFO -- : worker=0 spawned pid=2558
+I, [2017-08-11T03:05:19.833359 #2558]  INFO -- : worker=0 ready
+I, [2017-08-11T03:05:19.840441 #2555]  INFO -- : master process ready
+I, [2017-08-11T03:05:19.862254 #2561]  INFO -- : worker=1 spawned pid=2561
+I, [2017-08-11T03:05:19.872337 #2561]  INFO -- : worker=1 ready
